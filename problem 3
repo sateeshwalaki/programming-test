@@ -1,0 +1,11 @@
+a=int(input())
+X=0
+b=a%2
+res=1
+if(b==1):
+    X=0
+else:
+    X=1
+for i in range(a-X):
+    print(res,end=' ')
+    res+=2
