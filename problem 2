@@ -1,0 +1,6 @@
+a=int(input())
+k=1
+for i in range(a):
+    if i==a-1:print(k,end="")
+    else:print(k,end=",")
+    k+=2
